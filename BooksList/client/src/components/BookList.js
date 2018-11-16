@@ -9,12 +9,14 @@ class BookList extends Component{
 		super(props);
 		this.state={
 			selected: null,
+			active:null,
 		}
 		this.selectBook = this.selectBook.bind(this);
 	}
 	selectBook = (bookId) => {
 		this.setState({
 			selected: bookId,
+			active: bookId,
 		})
 	}
 	displayBooks()
@@ -28,7 +30,7 @@ class BookList extends Component{
 		{
 			return data.books.map(book => {
 				return(
-					<li key={book.id} onClick={() => this.selectBook(book.id)}>{book.name}</li>
+					<li key={book.id} className={this.state.active===book.id ? 'active': 'not-active'} onClick={() => this.selectBook(book.id)}>{book.name}</li>
 				);
 			})
 		}

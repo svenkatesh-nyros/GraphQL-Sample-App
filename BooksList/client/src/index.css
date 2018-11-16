@@ -10,7 +10,7 @@ body {
 #main{
   padding:0px;
   box-sizing: border-box;
-  width: 60%;
+  width: 70%;
   height: 100%;
 }
 #book-list{
@@ -26,11 +26,16 @@ body {
   cursor: pointer;
   color: #880E4F;
 }
+#book-list .active{
+  background-color: #880E4F;
+  color:#fff;
+
+}
 
 
 form{
   background: #fff;
-  padding: 20px 20px 30px;
+  padding: 10px 20px 30px;
   position: fixed;
   left: 0;
   bottom:20px;
@@ -44,6 +49,7 @@ form .input_field{
 form label{
   text-align: right;
   padding:6px;
+  font-size: 13px;
 }
 form input, form select{
   margin: 4px 0;
@@ -62,13 +68,14 @@ form input, form select{
   position: absolute;
   bottom: 10px;
   left: 10px;
+  outline: none;
 }
 
 #book-details{
   position: fixed;
   top: 0;
   right: 0;
-  width: 40%;
+  width: 30%;
   height: 100%;
   background:#AD1457;
   overflow: auto;
@@ -83,3 +90,13 @@ form input, form select{
   font-size: 13px;
   text-align: right;
 }
+
+#add-author{
+    background: #fff;
+    width: 287px;
+    position: fixed;
+    bottom: 20px;
+    left: 570px;
+    padding: 10px 20px 69px;
+}
+
