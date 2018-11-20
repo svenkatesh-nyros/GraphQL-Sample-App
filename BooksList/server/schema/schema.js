@@ -13,31 +13,6 @@ const {
 	GraphQLNonNull
 } = graphql;
 
-
-var books = [
-	{id: "1",name:"History of India",genre:"History",authorId:"1"},
-	{id: "2",name:"Sample Book1",genre:"sci-fi",authorId:"2"},
-	{id: "3",name:"Sample Book2",genre:"history",authorId:"3"},
-	{id: "4",name:"Name of the Wind", genre:"Fantasy",authorId:"1"},
-	{id: "5",name:"The Last Empire",genre:"Fantasy",authorId:"1"},
-	{id: "6",name:"Battle of War",genre:"Fantasy",authroId:"2"},
-	{id: "7",name:"Avengers Age of Ultron",genre: "Fantasy",authorId:"3"},
-	{id: "8",name:"BattleShip",genre:"Fantasy",authorId:"6"}
-];
-
-// Bhaskar: 5bed0cdc0cb7ad3db218750c
-// Venkatesh: 5bed0a18a1f4443a5c533812
-// Madhu: 5bed0cff0cb7ad3db218750d
-// Manohar: 5bed0d080cb7ad3db218750e
-// Chandu: 5bed0d2b0cb7ad3db218750f
-// Sankar: 5bed0d520cb7ad3db2187510
-
-var authors = [
-	{id: "1",name:"Venkatesh",age:25},
-	{id: "2",name:"Bhaskar",age:23},
-	{id: "3",name:"Manohar",age:24}
-];
-
 const BookType = new GraphQLObjectType ({
 	name: 'Book',
 	fields: () => ({
@@ -49,7 +24,7 @@ const BookType = new GraphQLObjectType ({
 			type: AuthorType,
 			resolve(parent,args){
 				//return _.find(authors, {id: parent.authorId})
-				return Author.findById(parent.authorId);			
+				return Author.findById(parent.authorId);		
 			}
 		}
 	})
@@ -105,7 +80,7 @@ const RootQuery = new GraphQLObjectType({
 				// return authors
 				return Author.find({});
 			}
-		}
+		},
 	}
 })
 
@@ -147,10 +122,27 @@ const Mutation = new GraphQLObjectType({
 		deleteBook:{
 			type: BookType,
 			args: {
-				id: {type: new GraphQLNonNull(GraphQLID)}
+				id: {type: new GraphQLNonNull(GraphQLString)}
 			},
 			resolve(parent,args){
 				return Book.deleteOne({_id: args.id});
+			}
+		},
+		editBook: {
+			type: BookType,
+			args: {
+					id: {type: new GraphQLNonNull(GraphQLString)},
+					name: {type: new GraphQLNonNull(GraphQLString)},
+					genre: {type: new GraphQLNonNull(GraphQLString)},
+					authorId: {type: new GraphQLNonNull(GraphQLID)}
+			},
+			resolve(parent,args){
+				return Book.findByIdAndUpdate(
+				      args.id,
+				      { $set: { name: args.name,genre: args.genre, authorId: args.authorId}},
+				      { new: true }
+				)
+				.catch(err => new Error(err));
 			}
 		}
 	}

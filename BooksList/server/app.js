@@ -5,7 +5,8 @@ const mongoose = require('mongoose');
 
 const schema = require('./schema/schema');
 // mongoose connection using mLab (mongodb online)
-mongoose.connect('mongodb://root:root123@ds261253.mlab.com:61253/graphql-sample');
+// mongoose.connect('mongodb://root:root123@ds261253.mlab.com:61253/graphql-sample');
+mongoose.connect('mongodb://localhost:27017/bookslist');
 mongoose.connection.once('open',() => {
 	console.log('connected to database');
 })

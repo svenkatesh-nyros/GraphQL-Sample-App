@@ -77,13 +77,7 @@ class AddAuthor extends Component{
 				}
 				// , refetchQueries: [{query: getBooksQuery}] //for getting other queries 
 			});
-			// this.props.addAuthorMutation({
-			// 	variables: {
-			// 		name: this.state.author_name,
-			// 		age: this.state.age,
-			// 	},
-			
-			// });
+		
 		}
 	}
 	

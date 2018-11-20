@@ -19,20 +19,23 @@ body {
 #book-list li{
   display: inline-block;
   margin:12px;
-  padding:10px;
+  padding:10px 10px 1px 0px;
   border-radius:4px;
   border:1px solid #880E4F;
   box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
   cursor: pointer;
   color: #880E4F;
 }
+#book-list li .book_item{
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+}
 #book-list .active{
   background-color: #880E4F;
   color:#fff;
-
 }
-
-
 form{
   background: #fff;
   padding: 10px 20px 30px;
@@ -78,6 +81,7 @@ form input, form select{
   width: 30%;
   height: 100%;
   background:#AD1457;
+  /*background:#eee;*/
   overflow: auto;
   box-shadow: -2px -3px 5px rgba(0,0,0.3);
   box-sizing:border-box;
@@ -100,3 +104,16 @@ form input, form select{
     padding: 10px 20px 69px;
 }
 
+.close_btn{
+color: red;
+float: right;
+right: 0;
+position: relative;
+border: 1px solid red;
+margin-left: 15px;
+font-size: 12px;
+padding: 5px 9px;
+border-radius: 12px;
+bottom: 3px;
+cursor: pointer;
+}
