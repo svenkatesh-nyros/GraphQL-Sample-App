@@ -13,4 +13,4 @@
 
 ## Expected Output
 
-![alt text](http://203.193.173.125/images/graphql-output.gif "Preview")
+![alt text](http://203.193.173.125/images/graphql-sample-output.gif "Preview")
