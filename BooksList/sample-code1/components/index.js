@@ -1,0 +1,27 @@
+export {default as ButtonItem} from "./Button";
+export {default as Ecard} from "./Card";
+export {default as Gallery} from "./Carousal";
+export {default as Ecomment} from "./Comment";
+export {default as Config} from "./Head";
+export {default as Title} from "./Header";
+export {default as ImageItem} from "./Image";
+export {default as ItemData} from "./Item";
+export {default as ListItems} from "./List";
+export {default as MapContainer} from "./Map";
+export {default as SearchFeild} from "./Search";
+export {default as TableItem} from "./Table";
+export {default as InText} from "./Text";
+export {default as Segmant} from "./Segment";
+export {default as WhiteTitle} from "./WhiteHeader";
+export {default as BlackTitle} from "./BlackHeader";
+export {default as LabelTag} from "./Label";
+export {default as QuesFeed} from "./Feed";
+export {default as StreetView} from "./StreetView";
+export {default as Wcomment} from "./WriteComment";
+export {default as Field} from "./Input";
+export {default as Paginate} from "./Pagination";
+export {default as SignupModal} from "./SignupModal";
+export {default as LoginModal} from "./LoginModal";
+export {default as CustomFeed} from "./CustomFeed";
+export {default as CustomItems} from "./CustomItems";
+

@@ -1,0 +1,392 @@
+{
+  "iconData": [
+    {
+      "HeaderImage": "/static/images/Crime.png",
+      "SubContent": "910"
+    },
+    {
+      "HeaderImage": "/static/images/School.png",
+      "SubContent": "950"
+    },
+    {
+      "HeaderImage": "/static/images/Transit.png",
+      "SubContent": "886"
+    },
+    {
+      "HeaderImage": "/static/images/Lifestyle.png",
+      "SubContent": "875"
+    },
+    {
+      "HeaderImage": "/static/images/Lifestyle.png",
+      "SubContent": "890"
+    },
+    {
+      "HeaderImage": "/static/images/Lifestyle.png",
+      "SubContent": "930"
+    },
+    {
+      "HeaderImage": "/static/images/Lifestyle.png",
+      "SubContent": "750"
+    }
+  ],
+  "imageData": [
+    "/static/images/city1.jpg",
+    "/static/images/city2.jpg",
+    "/static/images/city3.jpg",
+    "/static/images/city4.jpg",
+    "/static/images/city5.jpg",
+    "/static/images/city1.jpg",
+    "/static/images/city2.jpg",
+    "/static/images/city3.jpg"
+  ],
+  "desData": [
+    {
+      "heading": "City Description",
+      "p1": "Alder Manor is one of the best nieghborhoods in San Carlos. It has tree lined streets and the trafficis never so fast. In a normal weekend day, you will see lots of kids playing around on their driveways and moms pushing strollers around. So, if you have a young family you will be hardpressed to find abetter neighborhood.",
+      "p2": "The school district is top notch. The parents are quite involved and many children walk to schools unsupervised. This tells you that the streets are quite safe and neighbors watch out for each other.The size of the downtown is about perfect. Chain stores are not allowed so you will have a very small town feel.",
+      "p3": "The market has been moving up very quickly as homebuyers recognize this previously hidden gem.Even though the prices have gone up quite a bit, this is still one of the best buys on the Peninsula. If you are ...",
+      "helpcontent": "36",
+      "quescontent": "4",
+      "heading1": "City Overview courtesy of:",
+      "image": "/static/images/Katy.png",
+      "itemhead": "Jane Smith",
+      "itemsub": "Alain Pinel, Peninsula"
+    },
+    {
+      "heading": "More City Reviews",
+      "p1": "Alder Manor is one of the best nieghborhoods in San Carlos. It has tree lined streets and the trafficis never so fast. In a normal weekend day, you will see lots of kids playing around on their driveways and moms pushing strollers around. So, if you have a young family you will be hardpressed to find abetter neighborhood...",
+      "helpcontent": "36",
+      "quescontent": "4",
+      "heading1": "City Insight courtesy of:",
+      "image": "/static/images/Katy.png",
+      "itemhead": "Jane Smith",
+      "itemsub": "Alain Pinel, Peninsula"
+    }
+  ],
+  "commData": [
+    {
+      "questions": {
+        "data": "What are the schools like in this neighborhood? Asked by Joe Ewing (Buyer)",
+        "date": "5 days ago",
+        "answer": "I am shopping in this DetailsNh and have been really impressed with neighbors. Thanks for helping"
+      },
+      "reviews": [
+        {
+          "image": "/static/images/avatar.png",
+          "author": "Jacky Realtor, Commpass Realty",
+          "date": "1 day ago",
+          "data": "I actually have 2 kids who went through the system and the school has always beenexcellent. They now have this new curriculum where they fast track kids who are advanced so everyone is quite happy learning their own pace ..."
+        },
+        {
+          "image": "/static/images/avatar.png",
+          "author": "John Doe, Alder Manor Neighbor",
+          "date": "5 days ago",
+          "data": "I actually have 2 kids who went through the system and the school has always beenexcellent. They now have this new curriculum where they fast track kids who are advanced so everyone is quite happy learning their own pace ..."
+        }
+      ]
+    },
+    {
+      "questions": {
+        "data": "Question 1",
+        "date": "10 days ago",
+        "answer": "I am shopping in this DetailsNh and have been really impressed with neighbors. Thanks for helping"
+      },
+      "reviews": [
+        {
+          "image": "/static/images/avatar.png",
+          "author": "Jacky Realtor, Commpass Realty",
+          "date": "1 day ago",
+          "data": "I actually have 2 kids who went through the system and the school has always beenexcellent. They now have this new curriculum where they fast track kids who are advanced so everyone is quite happy learning their own pace ..."
+        },
+        {
+          "image": "/static/images/avatar.png",
+          "author": "John Doe, Alder Manor Neighbor",
+          "date": "5 days ago",
+          "data": "I actually have 2 kids who went through the system and the school has always beenexcellent. They now have this new curriculum where they fast track kids who are advanced so everyone is quite happy learning their own pace ..."
+        },
+        {
+          "image": "/static/images/avatar.png",
+          "author": "John Doe@@, Alder Manor Neighbor",
+          "date": "5 days ago",
+          "data": "I actually have 2 kids who went through the system and the school has always beenexcellent. They now have this new curriculum where they fast track kids who are advanced so everyone is quite happy learning their own pace ..."
+        },
+        {
+          "image": "/static/images/avatar.png",
+          "author": "John Doe@@1, Alder Manor Neighbor",
+          "date": "5 days ago",
+          "data": "I actually have 2 kids who went through the system and the school has always beenexcellent. They now have this new curriculum where they fast track kids who are advanced so everyone is quite happy learning their own pace ..."
+        }
+      ]
+    },
+    {
+      "questions": {
+        "data": "Question 2",
+        "date": "10 days ago",
+        "answer": "I am shopping in this DetailsNh and have been really impressed with neighbors. Thanks for helping"
+      },
+      "reviews": [
+        {
+          "image": "/static/images/avatar.png",
+          "author": "Jacky Realtor, Commpass Realty",
+          "date": "1 day ago",
+          "data": "I actually have 2 kids who went through the system and the school has always beenexcellent. They now have this new curriculum where they fast track kids who are advanced so everyone is quite happy learning their own pace ..."
+        },
+        {
+          "image": "/static/images/avatar.png",
+          "author": "John Doe, Alder Manor Neighbor",
+          "date": "5 days ago",
+          "data": "I actually have 2 kids who went through the system and the school has always beenexcellent. They now have this new curriculum where they fast track kids who are advanced so everyone is quite happy learning their own pace ..."
+        },
+        {
+          "image": "/static/images/avatar.png",
+          "author": "John Doe@@, Alder Manor Neighbor",
+          "date": "5 days ago",
+          "data": "I actually have 2 kids who went through the system and the school has always beenexcellent. They now have this new curriculum where they fast track kids who are advanced so everyone is quite happy learning their own pace ..."
+        },
+        {
+          "image": "/static/images/avatar.png",
+          "author": "John Doe@@1, Alder Manor Neighbor",
+          "date": "5 days ago",
+          "data": "I actually have 2 kids who went through the system and the school has always beenexcellent. They now have this new curriculum where they fast track kids who are advanced so everyone is quite happy learning their own pace ..."
+        }
+      ]
+    },
+    {
+      "questions": {
+        "data": "Question 3",
+        "date": "10 days ago",
+        "answer": "I am shopping in this DetailsNh and have been really impressed with neighbors. Thanks for helping"
+      },
+      "reviews": [
+        {
+          "image": "/static/images/avatar.png",
+          "author": "Jacky Realtor, Commpass Realty",
+          "date": "1 day ago",
+          "data": "I actually have 2 kids who went through the system and the school has always beenexcellent. They now have this new curriculum where they fast track kids who are advanced so everyone is quite happy learning their own pace ..."
+        },
+        {
+          "image": "/static/images/avatar.png",
+          "author": "John Doe, Alder Manor Neighbor",
+          "date": "5 days ago",
+          "data": "I actually have 2 kids who went through the system and the school has always beenexcellent. They now have this new curriculum where they fast track kids who are advanced so everyone is quite happy learning their own pace ..."
+        },
+        {
+          "image": "/static/images/avatar.png",
+          "author": "John Doe@@, Alder Manor Neighbor",
+          "date": "5 days ago",
+          "data": "I actually have 2 kids who went through the system and the school has always beenexcellent. They now have this new curriculum where they fast track kids who are advanced so everyone is quite happy learning their own pace ..."
+        },
+        {
+          "image": "/static/images/avatar.png",
+          "author": "John Doe@@1, Alder Manor Neighbor",
+          "date": "5 days ago",
+          "data": "I actually have 2 kids who went through the system and the school has always beenexcellent. They now have this new curriculum where they fast track kids who are advanced so everyone is quite happy learning their own pace ..."
+        }
+      ]
+    }
+  ],
+  "homeData": [
+    {
+      "size": "small",
+      "image": "/static/images/similarn.png",
+      "head": "Neighborhood 1",
+      "subhead": "NPI: 890",
+      "desc": "Vlaue Index: 116",
+      "extra": "Best park in thepeninsula. Most wonderful neighbors"
+    },
+    {
+      "size": "small",
+      "image": "/static/images/similarn.png",
+      "head": "Neighborhood 2",
+      "subhead": "NPI: 890",
+      "desc": "Vlaue Index: 116",
+      "extra": "Best park in thepeninsula. Most wonderful neighbors"
+    },
+    {
+      "size": "small",
+      "image": "/static/images/similarn.png",
+      "head": "Neighborhood 3",
+      "subhead": "NPI: 890",
+      "desc": "Vlaue Index: 116",
+      "extra": "Best park in thepeninsula. Most wonderful neighbors"
+    },
+    {
+      "size": "small",
+      "image": "/static/images/similarn.png",
+      "head": "Neighborhood 4",
+      "subhead": "NPI: 890",
+      "desc": "Vlaue Index: 116",
+      "extra": "Best park in thepeninsula. Most wonderful neighbors"
+    },
+    {
+      "size": "small",
+      "image": "/static/images/similarn.png",
+      "head": "Neighborhood 5",
+      "subhead": "NPI: 890",
+      "desc": "Vlaue Index: 116",
+      "extra": "Best park in thepeninsula. Most wonderful neighbors"
+    },
+    {
+      "size": "small",
+      "image": "/static/images/similarn.png",
+      "head": "Neighborhood 6",
+      "subhead": "NPI: 890",
+      "desc": "Vlaue Index: 116",
+      "extra": "Best park in thepeninsula. Most wonderful neighbors"
+    },
+    {
+      "size": "small",
+      "image": "/static/images/similarn.png",
+      "head": "Neighborhood 7",
+      "subhead": "NPI: 890",
+      "desc": "Vlaue Index: 116",
+      "extra": "Best park in thepeninsula. Most wonderful neighbors"
+    },
+    {
+      "size": "small",
+      "image": "/static/images/similarn.png",
+      "head": "Neighborhood 8",
+      "subhead": "NPI: 890",
+      "desc": "Vlaue Index: 116",
+      "extra": "Best park in thepeninsula. Most wonderful neighbors"
+    },
+    {
+      "size": "small",
+      "image": "/static/images/similarn.png",
+      "head": "Neighborhood 9",
+      "subhead": "NPI: 890",
+      "desc": "Vlaue Index: 116",
+      "extra": "Best park in thepeninsula. Most wonderful neighbors"
+    }
+  ],
+  "itemData": [
+    {
+      "size": "tiny",
+      "image": "/static/images/Milad.png",
+      "head": "John Smith",
+      "subhead": "Alain Pinel, Peninsula"
+    },
+    {
+      "size": "tiny",
+      "image": "/static/images/Milad.png",
+      "head": "John Smith",
+      "subhead": "Alain Pinel, Peninsula"
+    },
+    {
+      "size": "tiny",
+      "image": "/static/images/Milad.png",
+      "head": "John Smith",
+      "subhead": "Alain Pinel, Peninsula"
+    },
+    {
+      "size": "tiny",
+      "image": "/static/images/Milad.png",
+      "head": "John Mike",
+      "subhead": "Alain Pinel, Peninsula"
+    },
+    {
+      "size": "tiny",
+      "image": "/static/images/Milad.png",
+      "head": "John Mike",
+      "subhead": "Alain Pinel, Peninsula"
+    },
+    {
+      "size": "tiny",
+      "image": "/static/images/Milad.png",
+      "head": "John Mike",
+      "subhead": "Alain Pinel, Peninsula"
+    },
+    {
+      "size": "tiny",
+      "image": "/static/images/Milad.png",
+      "head": "Michael",
+      "subhead": "Alain Pinel, Peninsula"
+    },
+    {
+      "size": "tiny",
+      "image": "/static/images/Milad.png",
+      "head": "Michael",
+      "subhead": "Alain Pinel, Peninsula"
+    },
+    {
+      "size": "tiny",
+      "image": "/static/images/Milad.png",
+      "head": "Michael",
+      "subhead": "Alain Pinel, Peninsula"
+    }
+  ],
+  "cityData": [
+    {
+      "size": "small",
+      "image": "/static/images/similarcity.png",
+      "head": "City 1",
+      "subhead": "NPI: 890",
+      "desc": "Vlaue Index: 116",
+      "extra": "Best park in thepeninsula. Most wonderful neighbors"
+    },
+    {
+      "size": "small",
+      "image": "/static/images/similarcity.png",
+      "head": "City 2",
+      "subhead": "NPI: 890",
+      "desc": "Vlaue Index: 116",
+      "extra": "Best park in thepeninsula. Most wonderful neighbors"
+    },
+    {
+      "size": "small",
+      "image": "/static/images/similarcity.png",
+      "head": "City 2",
+      "subhead": "NPI: 890",
+      "desc": "Vlaue Index: 116",
+      "extra": "Best park in thepeninsula. Most wonderful neighbors"
+    },
+    {
+      "size": "small",
+      "image": "/static/images/similarcity.png",
+      "head": "City 4",
+      "subhead": "NPI: 890",
+      "desc": "Vlaue Index: 116",
+      "extra": "Best park in thepeninsula. Most wonderful neighbors"
+    },
+    {
+      "size": "small",
+      "image": "/static/images/similarcity.png",
+      "head": "City 5",
+      "subhead": "NPI: 890",
+      "desc": "Vlaue Index: 116",
+      "extra": "Best park in thepeninsula. Most wonderful neighbors"
+    },
+    {
+      "size": "small",
+      "image": "/static/images/similarcity.png",
+      "head": "City 6",
+      "subhead": "NPI: 890",
+      "desc": "Vlaue Index: 116",
+      "extra": "Best park in thepeninsula. Most wonderful neighbors"
+    },
+    {
+      "size": "small",
+      "image": "/static/images/similarcity.png",
+      "head": "City 7",
+      "subhead": "NPI: 890",
+      "desc": "Vlaue Index: 116",
+      "extra": "Best park in thepeninsula. Most wonderful neighbors"
+    },
+    {
+      "size": "small",
+      "image": "/static/images/similarcity.png",
+      "head": "City 8",
+      "subhead": "NPI: 890",
+      "desc": "Vlaue Index: 116",
+      "extra": "Best park in thepeninsula. Most wonderful neighbors"
+    },
+    {
+      "size": "small",
+      "image": "/static/images/similarcity.png",
+      "head": "City 9",
+      "subhead": "NPI: 890",
+      "desc": "Vlaue Index: 116",
+      "extra": "Best park in thepeninsula. Most wonderful neighbors"
+    }
+  ]
+}
